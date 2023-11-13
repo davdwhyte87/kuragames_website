@@ -15,7 +15,7 @@ import TopWinners from "../components/homepage/TopWinners";
 const Home: NextPage = () => {
   return (
     <>
-      <Header title={"Gro Bat"} />
+      <Header title={"Kuragames"} />
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <Hero />

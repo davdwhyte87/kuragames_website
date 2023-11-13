@@ -6,6 +6,7 @@ import Button from "../../shared/Button";
 import Search from "../../shared/Search";
 import styles from "../../../styles/Home.module.css";
 import logo from "../../../public/assets/images/homepage/logo.png";
+import profile from "../../../public/assets/images/homepage/profile.png";
 
 const Navigation: FC = () => {
   return (
@@ -13,7 +14,7 @@ const Navigation: FC = () => {
       <MobileNav />
       <nav className={styles.nav}>
         <div className={styles.logo}>
-          <Image src={logo} alt="gro bat logo for mobile" />
+          {/* <Image src={profile} alt="gro bat logo for mobile" /> */}
         </div>
         <div className={styles.wrap}>
           <div className={styles.navLeft}>
