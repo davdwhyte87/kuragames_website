@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "CircularStd";
+  src: local("CircularStd"), url("./Circular-Std-Font.otf") format("truetype");
+  font-weight: bold;
+}

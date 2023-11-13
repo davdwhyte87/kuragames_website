@@ -1,0 +1,743 @@
+/**** Navigation styles start ****/
+
+.mobNav {
+  display: none;
+}
+
+.mobIcon {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mobSearch {
+  flex: 1;
+}
+
+.menu {
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linksWrap {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100%;
+}
+
+.mobLinks {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  flex: 1;
+}
+
+.wrap {
+  display: flex;
+  flex: 11;
+  margin-top: 25px;
+}
+
+.navLeft {
+  flex: 3;
+}
+
+.logoTitle {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Roboto", "serif";
+}
+
+.logoStroke {
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  -o-text-fill-color: transparent;
+  -o-text-stroke-width: 1px;
+  -o-text-stroke-color: #fff;
+  -moz-text-fill-color: transparent;
+  -moz-text-stroke-width: 1px;
+  -moz-text-stroke-color: #fff;
+}
+
+.navRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 8;
+}
+
+.navRightContent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.links {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/**** Navigation styles end ****/
+
+/**** Hero styles end ****/
+.heroWrapper {
+  margin-top: 50px;
+  gap: 3rem;
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 120px);
+}
+
+.heroLeft {
+  flex: 1;
+  margin-left: 25px;
+}
+
+.heroImgWrap {
+  position: relative;
+  background-color: #030a1a;
+  width: 90%;
+}
+
+.heroBg {
+  z-index: 2;
+}
+
+.heroRight {
+  flex: 1;
+}
+
+.rightWrap {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ctaText {
+  color: #ffffff;
+  font-size: 43px;
+  margin-top: 50px;
+}
+
+.heroExtra {
+  position: absolute;
+  right: 15%;
+}
+/**** Hero styles end ****/
+
+/**** Why Gro styles start ****/
+.whyWrap {
+  margin-top: 50px;
+}
+
+.divider {
+  height: 2px;
+  background: radial-gradient(#c149f7, #000);
+  border: none;
+}
+
+.whyContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.whyImg {
+  transform: scale(0.85);
+}
+
+.whyText {
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  width: 600px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.whyBtn {
+  width: 400px !important;
+}
+/**** Why Gro styles end ****/
+
+/**** Team styles start ****/
+.teamWrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  row-gap: 35px;
+}
+/**** Team styles end ****/
+
+/**** Staking styles start ****/
+.stakingWrapper {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stakingSubheader {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #fff;
+  margin: 0px;
+}
+
+.stakingImg {
+  position: absolute;
+  top: 80px;
+  right: 260px;
+}
+
+.stakingText {
+  position: relative;
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.stakingImgTwo {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+/**** Staking styles end ****/
+
+/**** Tokenomics styles start ****/
+.tokenomicsWrapper {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomicsSubheader {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #fff;
+  margin: 0px;
+}
+
+.cardHead {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.btnCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.customCard {
+  background: #e1aa1c;
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customCardText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.6;
+  margin: 0px;
+}
+
+.tokenomicsText {
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.percent {
+  display: flex;
+  gap: 5rem;
+}
+
+.round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background: #e1aa1c;
+}
+
+.roundText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.percentWrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.percentText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+/**** Tokenomics styles end ****/
+
+/**** Roadmap styles start ****/
+.roadmapWrap {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roadmapContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 12px; */
+}
+
+.topRoad {
+  display: flex;
+  align-items: flex-end;
+  gap: 6rem;
+  align-self: start;
+  margin-left: 40px;
+  position: relative;
+}
+
+.timeline {
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-size: 10.3475px;
+  line-height: 14px;
+  color: #3a4650;
+}
+
+.paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #f2f2f2;
+}
+
+.roadSplit {
+  background: linear-gradient(294.72deg, #ff4581 9.05%, #4388dd 79.28%);
+  opacity: 0.1;
+  border: none;
+  height: 5.1px;
+  width: 100%;
+}
+
+.lines {
+  position: absolute;
+  bottom: 2.5px;
+  left: 0;
+}
+
+.roadthree {
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottomRoad {
+  display: flex;
+  align-items: flex-start;
+  gap: 6rem;
+  position: relative;
+}
+
+.sun_1 {
+  transform: rotate(180deg);
+  position: absolute;
+  left: 200px;
+  top: 12px;
+}
+
+.sun_2 {
+  transform: rotate(180deg);
+  position: absolute;
+  left: 540px;
+  top: 12px;
+}
+
+.sun_3 {
+  position: absolute;
+  left: -70px;
+  top: -36px;
+}
+
+.sun_4 {
+  position: absolute;
+  left: 245px;
+  top: -36px;
+}
+
+.sun_5 {
+  position: absolute;
+  left: 570px;
+  top: -36px;
+}
+
+/**** Roadmap styles end ****/
+
+/**** Accomplishment styles start ****/
+.accomplishmentWrap {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accomplishmentContainer {
+  margin-top: 50px;
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  width: 584px;
+  font-size: 36px;
+  height: 140px;
+  color: #ffffff;
+  background: #000000;
+  box-shadow: -2px 2px 21px 10px rgba(225, 170, 28, 0.4);
+}
+/**** Accomplishment styles end ****/
+
+/**** Footer styles start ****/
+.footerWrap {
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+.footerMain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  justify-items: flex-end;
+}
+
+.footerTitle {
+  font-size: 26px;
+  color: #ffffff;
+  margin: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Roboto", "serif";
+}
+
+.footerLinks {
+  width: 100%;
+}
+
+.footer_1,
+.footer_2,
+.footer_3,
+.footer_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerImg {
+  display: flex;
+  gap: 20px;
+}
+
+.footerText {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.quickLinks {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.7;
+  color: rgba(255, 255, 255, 0.65);
+}
+/**** Footer styles end ****/
+
+/**** Media query start ****/
+
+@media (max-width: 1000px) {
+  /**** Hero media queries start ****/
+  .heroWrapper {
+    height: auto;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .rightWrap {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cta {
+    width: 100%;
+    align-items: center;
+  }
+
+  .ctaText {
+    margin-top: 10px;
+  }
+
+  .heroExtra {
+    display: none;
+  }
+  /**** Hero media queries end ****/
+}
+@media (max-width: 800px) {
+  /**** Nav media queries start ****/
+  .nav {
+    display: none;
+  }
+
+  .mobNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /**** Nav media queries end ****/
+
+  /**** Hero media queries start ****/
+  .ctaText {
+    font-size: 24px;
+  }
+
+  .heroLeft {
+    margin-left: 0;
+  }
+
+  .heroImgWrap {
+    width: 100%;
+    transform: scale(0.9);
+  }
+
+  /**** Hero media queries end ****/
+
+  /**** Why media queries start ****/
+  .whyContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .whyContent {
+    text-align: center;
+  }
+
+  .whyText {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .whyImg {
+    width: 100%;
+  }
+
+  .whyBtn {
+    width: 200px !important;
+  }
+
+  /**** Why media queries start ****/
+
+  /**** Staking media queries start ****/
+  .stakingSubheader {
+    font-size: 20px;
+  }
+
+  .stakingText {
+    font-size: 16px;
+  }
+  /**** Staking media queries end ****/
+
+  /**** Tokenomics media queries start ****/
+  .cardHead {
+    text-align: center;
+  }
+
+  .tokenomicsSubheader {
+    font-size: 20px;
+  }
+
+  .percent {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .tokenomicsText {
+    margin-top: 50px;
+    font-size: 16px;
+    opacity: 0.6;
+  }
+
+  .btnCard {
+    justify-content: center;
+  }
+
+  /**** Tokenomics media queries end ****/
+
+  /**** Road media queries start ****/
+  .topRoad,
+  .bottomRoad {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .topRoad {
+    align-self: auto;
+    margin-left: 0px;
+  }
+
+  .roadthree {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sun_1,
+  .sun_2,
+  .sun_4,
+  .sun_5 {
+    display: none;
+  }
+
+  /**** Road media queries end ****/
+
+  /**** Accomplishment media queries start ****/
+  .accomplishmentWrap {
+    margin-top: 70px;
+  }
+
+  .accomplishmentContainer {
+    gap: 2rem;
+  }
+
+  .item {
+    width: 100%;
+    font-size: 26px;
+    height: 120px;
+    box-shadow: -2px 2px 21px 5px rgba(225, 170, 28, 0.4);
+  }
+
+  /**** Accomplishment media queries end ****/
+
+  /**** Footer media queries start ****/
+  .footerMain {
+    justify-items: baseline;
+  }
+
+  .footerWrap {
+    margin-top: 100px;
+  }
+  /**** Footer media queries end ****/
+}
+
+@media (max-width: 568px) {
+  /**** Footer media queries start ****/
+  .footerMain {
+    gap: 2rem;
+  }
+  /**** Footer media queries end ****/
+}
+
+@media (min-width: 800px) {
+  /**** mobNav query start ****/
+  .mobHide {
+    display: none;
+  }
+  /**** mobNav query end ****/
+}
+/**** Media query end ****/
