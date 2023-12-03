@@ -4,35 +4,35 @@ import styles from "../../../styles/Home.module.css";
 import tw from "../../../public/assets/images/homepage/tw.png";
 import li from "../../../public/assets/images/homepage/li.png";
 import ig from "../../../public/assets/images/homepage/ig.png";
-import logo from "../../../public/assets/images/homepage/logo.png";
+import logo from "../../../public/assets/images/logo – 1.png";
 import meta from "../../../public/assets/images/homepage/meta.png";
 import Link from "next/link";
 
 const Footer: FC = () => {
   return (
     <div className={styles.footerWrap}>
-      <div>
-        <Image src={logo} alt="gro bat logo" />
+      <div className={styles.logo}>
+        {/* <Image  src={logo} alt="gro bat logo" /> */}
       </div>
       <div className={styles.footerLinks}>
         <div className={styles.footerMain}>
           <div className={styles.footer_1}>
             <p className={styles.footerTitle}>
-              Gro <span className={styles.logoStroke}>Bat</span>
+              Kura <span className={styles.logoStroke}>Games</span>
             </p>
             <p className={styles.footerText}>
-              Dignissimos eveniet quas rem. Qui
-              <br /> reprehenderit ratione quibusdam. <br /> Aliquam numquam
-              enim est ipsum ipsum <br /> neque. Reprehenderit rem <br /> animi.
+              B34, post service housing, Jericho, Ibadan
+              <br /> Email <br /> team@kuragames.com
+               <br /> <br /> 
             </p>
             <div className={styles.footerImg}>
-              <Link href={"#"}>
-                <a>
+              <Link  href={"https://www.facebook.com/profile.php?id=61553619516287"} target="_blank" >
+                <a target="_blank" >
                   <Image src={meta} alt="meta logo" />
                 </a>
               </Link>
-              <Link href={"#"}>
-                <a>
+              <Link href={"https://www.instagram.com/kura_games/"}>
+                <a target="_blank">
                   <Image src={ig} alt="instagram logo" />
                 </a>
               </Link>
@@ -41,8 +41,8 @@ const Footer: FC = () => {
                   <Image src={li} alt="linkedin logo" />
                 </a>
               </Link>
-              <Link href={"#"}>
-                <a>
+              <Link href={"https://twitter.com/kura_games100"}>
+                <a  target="_blank">
                   <Image src={tw} alt="twitter logo" />
                 </a>
               </Link>

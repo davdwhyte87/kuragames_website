@@ -4,13 +4,14 @@ import Button from "../../shared/Button";
 import styles from "../../../styles/Home.module.css";
 import dots from "../../../public/assets/images/homepage/dots.png";
 import bat from "../../../public/assets/images/homepage/batHero.jpg";
+import main_image1 from "../../../public/assets/images/1.jpg";
 
 const Hero: FC = () => {
   return (
     <div className={styles.heroWrapper}>
       <div className={styles.heroLeft}>
         <div className={styles.heroImgWrap}>
-          <Image src={bat} alt="nft bat banner" />
+          <Image src={main_image1} alt="nft bat banner" />
         </div>
       </div>
       <div className={styles.heroRight}>

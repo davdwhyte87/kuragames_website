@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Image from "next/image";
 import styles from "../../../styles/Home.module.css";
-const lines ="../../../public/assets/images/homepage/lines.png";
+import  lines from "../../../public/assets/images/homepage/lines.png";
 import sunDim from "../../../public/assets/images/homepage/sunstick-dm.svg";
 import sunLg from "../../../public/assets/images/homepage/sunstick-lng.svg";
 import sunWide from "../../../public/assets/images/homepage/sunstick-wd.svg";

@@ -3,14 +3,14 @@ import Image from "next/image";
 import Button from "../../shared/Button";
 import styles from "../../../styles/Home.module.css";
 import bat from "../../../public/assets/images/homepage/fireBat.jpg";
-
+import main_image2 from "../../../public/assets/images/about.jpeg";
 const WhyGro: FC = () => {
   return (
     <div className={styles.whyWrap}>
       <hr className={styles.divider} />
       <div className={styles.whyContainer}>
         <div className={styles.whyImg}>
-          <Image src={bat} alt="nft art" />
+          <Image src={main_image2} alt="nft art" />
         </div>
         <div className={styles.whyContent}>
           <h1 className="sectionHeader">About Kura Games</h1>
